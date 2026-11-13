@@ -1,0 +1,11 @@
+{
+  "geode": "$GEODE_VERSION",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "ivanciunicolaeandrei-sketch.nico-buffer",
+  "name": "Nico Buffer",
+  "version": "1.0.0",
+  "developer": "ivanciunicolaeandrei-sketch",
+  "description": "Configurable input buffering for Geometry Dash."
+}
