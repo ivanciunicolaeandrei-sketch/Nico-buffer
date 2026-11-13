@@ -5,7 +5,30 @@
   },
   "id": "ivanciunicolaeandrei-sketch.nico-buffer",
   "name": "Nico Buffer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "developer": "ivanciunicolaeandrei-sketch",
-  "description": "Configurable input buffering for Geometry Dash."
+  "description": "Configurable early jump input buffering for Geometry Dash.",
+  "settings": {
+    "buffer-enabled": {
+      "type": "bool",
+      "name": "Enable jump buffer",
+      "description": "Queue an early jump press until the player lands.",
+      "default": true
+    },
+    "buffer-frames": {
+      "type": "int",
+      "name": "Buffer window (frames)",
+      "description": "How long an early jump press is kept. Set to 0 to disable buffering.",
+      "default": 6,
+      "min": 0,
+      "max": 30,
+      "control": {
+        "slider": true,
+        "slider-step": 1,
+        "arrows": true,
+        "arrow-step": 1,
+        "input": true
+      }
+    }
+  }
 }
